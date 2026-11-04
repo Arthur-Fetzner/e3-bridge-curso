@@ -9,7 +9,7 @@ ao i3X, com o login E3 de cada pessoa e as regras de acesso de cada uma.
 
 **Online:** https://arthur-fetzner.github.io/e3-bridge-curso/ (no computador e no celular)
 
-**Apresentação do E3 Bridge** (o vídeo de 3 minutos): https://arthur-fetzner.github.io/e3-bridge-curso/#apresentacao, a aba
+**Apresentação do E3 Bridge** (o vídeo de 3 min 34 s): https://arthur-fetzner.github.io/e3-bridge-curso/#apresentacao, a aba
 Apresentação do site, ou o arquivo `apresentacao/E3_Bridge_Apresentacao.mp4`.
 
 Sem Internet: baixe ou clone o repositório e abra o `index.html` no navegador.
