@@ -47,145 +47,145 @@ Ao escolher o grupo, a parte da direita mostra a aplicação para ele.
 Por enquanto, quase tudo aparece como Bloqueado.
 
 13
-00:01:14,130 --> 00:01:17,142
-Só a pasta Distribuicao aparece com Pode ler.
+00:01:14,130 --> 00:01:17,187
+Só a pasta Distribuicao aparece com Leitura.
 
 14
-00:01:17,392 --> 00:01:21,796
+00:01:17,437 --> 00:01:21,841
 Esse acesso vem da regra de Todos, que vale para qualquer pessoa.
 
 15
-00:01:22,046 --> 00:01:29,888
+00:01:22,091 --> 00:01:29,933
 Por isso, a caixa Ler da pasta aparece em cinza: o acesso vem de uma regra de cima, e não do próprio item.
 
 16
-00:01:30,838 --> 00:01:35,867
+00:01:30,883 --> 00:01:35,912
 Para liberar a leitura de um item, marque a caixa Ler na linha dele.
 
 17
-00:01:36,117 --> 00:01:38,422
+00:01:36,162 --> 00:01:38,467
 Vamos marcar a pasta Captacao.
 
 18
-00:01:39,372 --> 00:01:46,058
-A caixa fica azul. Agora a pasta tem uma regra própria, e o acesso dela passa para Pode ler.
+00:01:39,417 --> 00:01:45,869
+A caixa fica azul. Agora a pasta tem uma regra própria, e o acesso dela passa para Leitura.
 
 19
-00:01:47,310 --> 00:01:52,658
+00:01:47,178 --> 00:01:52,526
 Repare que, no alto, apareceram os botões Descartar e Salvar.
 
 20
-00:01:52,908 --> 00:01:58,731
+00:01:52,776 --> 00:01:58,599
 E, no rodapé, o aviso de que as regras mudaram. Elas só valem depois de salvas.
 
 21
-00:01:59,681 --> 00:02:02,897
+00:01:59,549 --> 00:02:02,765
 Abra a pasta pela seta, à esquerda do nome.
 
 22
-00:02:03,847 --> 00:02:10,785
+00:02:03,715 --> 00:02:10,653
 Os itens de dentro aparecem com a caixa Ler marcada em cinza: eles herdam a regra da pasta.
 
 23
-00:02:11,035 --> 00:02:15,116
+00:02:10,903 --> 00:02:14,984
 Uma regra numa pasta vale para tudo o que está dentro dela.
 
 24
-00:02:16,066 --> 00:02:19,885
+00:02:15,934 --> 00:02:19,753
 A operação também precisa ligar e desligar a Bomba1.
 
 25
-00:02:20,135 --> 00:02:24,702
+00:02:20,003 --> 00:02:24,570
 Para isso, marque a caixa Escrever na linha dela.
 
 26
-00:02:25,652 --> 00:02:32,538
-O acesso passa para Pode escrever. E quem escreve também lê: a caixa Ler acompanha.
+00:02:25,520 --> 00:02:32,308
+O acesso passa para Escrita. E quem escreve também lê: a caixa Ler acompanha.
 
 27
-00:02:33,488 --> 00:02:40,267
+00:02:33,258 --> 00:02:40,037
 No rodapé, a contagem mostra quantos objetos o grupo pode ler, e quantos ele pode escrever.
 
 28
-00:02:41,217 --> 00:02:46,121
+00:02:40,987 --> 00:02:45,891
 E se um item da pasta não deve aparecer? Por exemplo, a Vazao.
 
 29
-00:02:46,371 --> 00:02:48,302
+00:02:46,141 --> 00:02:48,072
 Desmarque a caixa Ler dela.
 
 30
-00:02:49,252 --> 00:02:50,804
+00:02:49,022 --> 00:02:50,574
 O item fica Bloqueado.
 
 31
-00:02:52,008 --> 00:02:56,892
+00:02:51,778 --> 00:02:56,662
 Vale sempre a regra mais próxima: a do próprio item vence a da pasta.
 
 32
-00:02:57,142 --> 00:03:00,634
+00:02:56,912 --> 00:03:00,404
 Para quem é do grupo, a Vazao simplesmente não existe.
 
 33
-00:03:01,836 --> 00:03:07,572
+00:03:01,606 --> 00:03:07,342
 As telas seguem as mesmas regras. Marque a caixa Ler da TelaPrincipal.
 
 34
-00:03:08,522 --> 00:03:14,354
+00:03:08,292 --> 00:03:14,124
 Para abrir uma tela, a pessoa precisa também da permissão de abrir do próprio E3.
 
 35
-00:03:15,304 --> 00:03:19,537
-Para conferir o resultado, use a lista Mostrar, no alto.
+00:03:15,074 --> 00:03:19,188
+Para conferir o resultado, use a lista de filtro, no alto.
 
 36
-00:03:20,187 --> 00:03:24,579
-Em Pode escrever, aparecem só os itens que o grupo pode escrever.
+00:03:19,838 --> 00:03:23,974
+Em Escrita, aparecem só os itens que o grupo pode escrever.
 
 37
-00:03:25,229 --> 00:03:28,023
+00:03:24,624 --> 00:03:27,418
 Em Bloqueado, os que ele não pode ler.
 
 38
-00:03:28,973 --> 00:03:33,852
+00:03:28,368 --> 00:03:33,247
 A busca também ajuda. Digite parte do nome, por exemplo, nível.
 
 39
-00:03:34,602 --> 00:03:39,260
+00:03:33,997 --> 00:03:38,655
 Aparecem os itens encontrados, junto com as pastas onde eles estão.
 
 40
-00:03:40,510 --> 00:03:43,531
+00:03:39,905 --> 00:03:42,926
 Quando estiver tudo certo, clique em Salvar.
 
 41
-00:03:46,892 --> 00:03:50,254
+00:03:46,287 --> 00:03:49,649
 O Windows pede a confirmação de um administrador.
 
 42
-00:03:52,533 --> 00:03:59,511
+00:03:51,928 --> 00:03:58,906
 Pronto. O serviço recarrega a configuração em um ou dois segundos, e as regras passam a valer.
 
 43
-00:03:59,761 --> 00:04:02,699
+00:03:59,156 --> 00:04:02,094
 O grupo Operacao agora tem quatro regras.
 
 44
-00:04:04,149 --> 00:04:05,413
+00:04:03,544 --> 00:04:04,808
 Vamos recapitular.
 
 45
-00:04:05,663 --> 00:04:12,828
+00:04:05,058 --> 00:04:12,223
 Você escolheu o grupo à esquerda, e liberou o acesso à direita, com as caixas Ler e Escrever.
 
 46
-00:04:13,078 --> 00:04:17,353
+00:04:12,473 --> 00:04:16,748
 Viu que vale a regra mais próxima, e que quem escreve também lê.
 
 47
-00:04:17,603 --> 00:04:22,211
+00:04:16,998 --> 00:04:21,606
 E que as regras só valem depois de salvas, com a confirmação do Windows.
 
 48
-00:04:22,461 --> 00:04:26,583
+00:04:21,856 --> 00:04:25,978
 Na próxima aula, você vai conhecer as bibliotecas do projeto.
