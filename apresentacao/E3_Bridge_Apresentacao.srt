@@ -1,83 +1,75 @@
 1
-00:00:00,900 --> 00:00:09,609
-A sua aplicação do E3, do Power ou do Water reúne os dados da planta: os valores, os alarmes, o histórico e os equipamentos.
+00:00:00,900 --> 00:00:04,134
+Algum bairro corre risco de falta de água agora?
 
 2
-00:00:10,459 --> 00:00:18,372
-Mas, para outro sistema chegar a esses dados, hoje é preciso OPC, SQL ou um script dentro da aplicação.
+00:00:04,184 --> 00:00:08,910
+A resposta vem com os números da planta: o bairro, a pressão e o limite.
 
 3
-00:00:18,422 --> 00:00:21,957
-E um assistente de inteligência artificial não chega a eles.
+00:00:10,360 --> 00:00:18,851
+Isso é o E3 Bridge. A sua aplicação do E3, do Power ou do Water, conectada à inteligência artificial e aos seus sistemas.
 
 4
-00:00:22,807 --> 00:00:32,493
-O E3 Bridge resolve isso. É um serviço do Windows, instalado no computador do E3 Server, que abre a aplicação para três tipos de cliente, na mesma porta:
+00:00:19,701 --> 00:00:27,492
+Os dados da planta sempre estiveram no E3. Mas, até hoje, tirar uma resposta deles era abrir telas e montar relatórios,
 
 5
-00:00:32,543 --> 00:00:41,475
-assistentes de IA, pelo MCP, qualquer sistema, pela API REST, e plataformas industriais, pelo i3X, o padrão aberto da CESMII.
+00:00:27,542 --> 00:00:32,006
+e integrar outro sistema era um projeto de OPC, SQL e scripts.
 
 6
-00:00:42,325 --> 00:00:48,709
-Com um assistente como o Claude, você pergunta em português: algum bairro corre risco de falta de água agora?
+00:00:32,056 --> 00:00:37,065
+Com o E3 Bridge, a resposta vem de uma pergunta, e a integração, de uma API.
 
 7
-00:00:48,759 --> 00:00:55,941
-Ele encontra os reservatórios, lê os valores, confere os limites dos alarmes e responde com os números de cada ponto.
+00:00:37,915 --> 00:00:45,981
+A operação, a manutenção e a engenharia perguntam em português: quais bombas estão ligadas, se algum bairro corre risco de falta de água,
 
 8
-00:00:58,191 --> 00:01:07,432
-São dezenove ferramentas: objetos e DocStrings, valores, alarmes, histórico, consultas, telas e a topologia do modelo do Water e do Power.
+00:00:46,031 --> 00:00:52,709
+ou pedem para mudar um setpoint. E recebem a resposta com os dados de agora, sem procurar em telas.
 
 9
-00:01:08,282 --> 00:01:14,392
-Para os sistemas, a API REST entrega o mesmo dado em JSON: o valor, a qualidade e a hora.
+00:00:53,559 --> 00:01:02,129
+São dezenove ferramentas: objetos, valores, alarmes, histórico, consultas, telas e topologia. O assistente escolhe sozinho qual usar.
 
 10
-00:01:15,242 --> 00:01:24,776
-A documentação completa abre no navegador, e o i3X segue o padrão aberto da CESMII, com os objetos, os valores, o histórico e as assinaturas.
+00:01:02,979 --> 00:01:11,786
+Para o MES, o ERP ou um painel web, a integração é uma chamada à API REST: o valor, a qualidade e a hora, em JSON.
 
 11
-00:01:25,626 --> 00:01:34,371
-O E3 Bridge também escreve: um setpoint, um tag, o comando de um disjuntor ou de uma válvula, e as propriedades das suas bibliotecas.
+00:01:12,636 --> 00:01:19,021
+Com a documentação no navegador, e o i3X, o padrão aberto da CESMII, para as plataformas industriais.
 
 12
-00:01:35,221 --> 00:01:44,175
-Pela API, os comandos entram numa fila: cada um recebe um id e roda em ordem, um por vez em cada equipamento, com prazo para não sair atrasado.
+00:01:19,871 --> 00:01:25,123
+Quando é preciso agir, ele escreve setpoints e comanda válvulas e disjuntores.
 
 13
-00:01:45,025 --> 00:01:51,590
-E um stream de eventos avisa cada mudança de valor e o resultado de cada comando, assim que acontecem.
+00:01:25,173 --> 00:01:31,296
+Pela API, cada comando entra numa fila, recebe um id e roda em ordem, um por vez em cada equipamento.
 
 14
-00:01:52,440 --> 00:01:55,935
-No assistente, nada é escrito sem a confirmação da pessoa.
+00:01:32,146 --> 00:01:35,923
+No assistente, nenhum comando roda sem a confirmação da pessoa.
 
 15
-00:01:58,985 --> 00:02:06,448
-A segurança vem primeiro. Cada pedido usa o login do E3 da pessoa, inclusive contas do Windows e grupos do Active Directory.
+00:01:38,773 --> 00:01:46,596
+Tudo começa bloqueado. Cada pessoa entra com o login do E3, inclusive do Active Directory, e vê só o que as regras liberam.
 
 16
-00:02:06,498 --> 00:02:13,412
-Tudo começa bloqueado. As regras dizem, por grupo e por pasta, o que cada um lê e onde escreve.
+00:01:47,446 --> 00:01:51,916
+E cada pedido fica registrado na auditoria: quem, de onde e o quê.
 
 17
-00:02:14,262 --> 00:02:23,291
-Por padrão, só o próprio computador do E3 Server conecta. A rede, o HTTPS e o firewall se configuram na própria janela.
+00:01:52,785 --> 00:02:00,688
+E tudo isso sem licença de Viewer para cada pessoa, sem script dentro da aplicação, e com um instalador só, no computador do E3 Server.
 
 18
-00:02:24,141 --> 00:02:29,248
-E cada pedido vira uma linha da auditoria: quem, de onde, o quê e o resultado.
+00:02:01,538 --> 00:02:07,915
+Respostas mais rápidas. Integrações mais simples. Comandos com controle. E segurança desde o início.
 
 19
-00:02:30,098 --> 00:02:35,660
-A janela do E3 Bridge mostra o estado do serviço, quem está conectado e os últimos pedidos.
-
-20
-00:02:36,510 --> 00:02:45,025
-Ele não usa licença de Viewer, não pede nenhum script dentro da aplicação, e é instalado com um instalador só, no computador do E3 Server.
-
-21
-00:02:45,875 --> 00:02:48,172
-E3 Bridge, da Elipse Software.
+00:02:08,765 --> 00:02:14,970
+E3 Bridge, da Elipse Software. Fale com a Elipse e veja o E3 Bridge na sua aplicação.
