@@ -7,7 +7,9 @@ ao i3X, com o login E3 de cada pessoa e as regras de acesso de cada uma.
 
 ## Como assistir
 
-Baixe ou clone o repositório e abra o `index.html` no navegador. A página funciona sem Internet e também no celular.
+**Online:** https://arthur-fetzner.github.io/e3-bridge-curso/ (no computador e no celular)
+
+Sem Internet: baixe ou clone o repositório e abra o `index.html` no navegador.
 
 - Velocidade de 0,75x a 2x, legendas (CC), tela cheia e voltar 10 s
 - A transcrição de cada aula, com cada frase levando ao ponto dela no vídeo
