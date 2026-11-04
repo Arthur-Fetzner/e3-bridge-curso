@@ -1,0 +1,107 @@
+1
+00:00:00,850 --> 00:00:06,579
+Nesta aula, você vai entrar na janela do E3 Bridge pela primeira vez.
+
+2
+00:00:06,829 --> 00:00:14,494
+Vai ver como abrir a janela pelo ícone, entrar com um administrador do E3, sair e usar o menu do ícone.
+
+3
+00:00:15,944 --> 00:00:26,563
+Depois da instalação, o E3 Bridge fica no ícone da área de notificação, perto do relógio. Se ele não aparecer, procure na seta ao lado.
+
+4
+00:00:26,813 --> 00:00:30,747
+Ao passar o mouse, o Windows mostra o estado do serviço.
+
+5
+00:00:30,997 --> 00:00:33,656
+Um clique no ícone abre a janela.
+
+6
+00:00:35,789 --> 00:00:37,849
+A janela começa pedindo o login.
+
+7
+00:00:38,099 --> 00:00:44,208
+Ela só abre para um administrador do E3, porque é nela que se decide quem acessa o quê.
+
+8
+00:00:44,458 --> 00:00:50,369
+No alto do cartão, Servidor E3 mostra se o domínio está em execução.
+
+9
+00:00:51,319 --> 00:00:54,896
+Escolha o usuário na lista dos administradores.
+
+10
+00:00:55,146 --> 00:00:56,428
+Digite a senha.
+
+11
+00:00:56,678 --> 00:00:58,081
+E clique em Entrar.
+
+12
+00:01:00,866 --> 00:01:03,198
+Pronto: você está na Visão geral.
+
+13
+00:01:03,448 --> 00:01:11,225
+No alto, ficam as abas Visão geral, Pessoas e permissões, Bibliotecas e Configurações.
+
+14
+00:01:11,475 --> 00:01:17,830
+À direita, o estado do serviço, os botões Parar e Logs, e quem entrou.
+
+15
+00:01:19,042 --> 00:01:28,974
+Se você é administrador do Windows, também pode usar o botão Entrar como administrador do Windows. O Windows pede a confirmação.
+
+16
+00:01:29,224 --> 00:01:35,333
+E, se a aplicação ainda não tem usuários no E3, só o administrador do Windows entra.
+
+17
+00:01:35,583 --> 00:01:41,270
+Nesse caso, o cartão avisa que é preciso criar os usuários no E3 Studio.
+
+18
+00:01:42,220 --> 00:01:47,498
+Fechar a janela não encerra o login: ele fica guardado até você clicar em Sair.
+
+19
+00:01:48,348 --> 00:01:51,977
+Depois do Sair, a janela volta a pedir o login.
+
+20
+00:01:53,427 --> 00:01:57,032
+No ícone, o botão direito abre um menu curto.
+
+21
+00:01:57,282 --> 00:02:04,450
+Ele tem Abrir o E3 Bridge, Configurações, Abrir pasta de logs e Ocultar ícone.
+
+22
+00:02:04,700 --> 00:02:09,534
+Ocultar o ícone não para nada: o serviço continua atendendo.
+
+23
+00:02:10,984 --> 00:02:12,178
+Vamos recapitular.
+
+24
+00:02:12,428 --> 00:02:18,655
+A janela abre pelo ícone, e só para um administrador do E3, ou do Windows.
+
+25
+00:02:18,905 --> 00:02:21,186
+O login fica guardado até o Sair.
+
+26
+00:02:21,436 --> 00:02:26,298
+E o menu do ícone abre a janela, as configurações e os logs.
+
+27
+00:02:26,548 --> 00:02:30,511
+Na próxima aula, você vai conhecer a Visão geral em detalhe.

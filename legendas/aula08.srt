@@ -1,0 +1,123 @@
+1
+00:00:00,850 --> 00:00:07,202
+Nesta aula, você vai ajustar como o E3 Bridge mostra as bibliotecas do projeto.
+
+2
+00:00:07,452 --> 00:00:18,936
+Vai ver as classes das bibliotecas e as do próprio E3, como mostrar e esconder propriedades, e como deixar uma propriedade ser escrita como comando.
+
+3
+00:00:20,386 --> 00:00:33,126
+As bibliotecas do projeto, os arquivos ponto lib e ponto e3pkg, criam classes próprias, como uma bomba ou uma válvula, cada uma com as suas propriedades.
+
+4
+00:00:33,376 --> 00:00:43,992
+O E3 Bridge lê essas classes direto dos arquivos do projeto, e mostra as propriedades no MCP, na REST e no i3X.
+
+5
+00:00:45,442 --> 00:00:47,572
+Abra a aba Bibliotecas.
+
+6
+00:00:47,822 --> 00:00:53,195
+À esquerda, ficam as bibliotecas. Abra uma delas, e escolha uma classe.
+
+7
+00:00:54,624 --> 00:00:59,211
+À direita, ficam as propriedades da classe, separadas por tipo.
+
+8
+00:00:59,461 --> 00:01:06,337
+A caixa Mostrar decide se a propriedade aparece no MCP, na REST e no i3X.
+
+9
+00:01:06,587 --> 00:01:09,748
+A propriedade escondida não se lê nem pelo caminho.
+
+10
+00:01:10,698 --> 00:01:16,016
+Para esconder uma propriedade, desmarque Mostrar. Vamos esconder o Horímetro.
+
+11
+00:01:16,966 --> 00:01:21,658
+Como em Pessoas e permissões, a mudança só vale depois de salva.
+
+12
+00:01:23,090 --> 00:01:30,435
+A caixa Comando deixa escrever a propriedade pelo run command, no MCP e na REST.
+
+13
+00:01:30,685 --> 00:01:38,516
+Vale só onde a regra da pessoa disser Escrever, e o E3 recusa o valor que o projeto não aceitar.
+
+14
+00:01:38,766 --> 00:01:40,702
+Vamos marcar Comando em Modo.
+
+15
+00:01:43,436 --> 00:01:48,597
+A linha Todas as propriedades marca ou desmarca a classe inteira.
+
+16
+00:01:48,847 --> 00:01:54,675
+E, no rodapé, a contagem mostra quantas estão à mostra, e quantas como comando.
+
+17
+00:01:55,625 --> 00:02:01,634
+Cada classe tem o seu ajuste. Escolha Valvula para ver as propriedades dela.
+
+18
+00:02:02,584 --> 00:02:15,140
+Embaixo das bibliotecas fica a pasta Classes do E3, com as classes do próprio E3 que a aplicação usa: tags, drivers, alarmes e históricos.
+
+19
+00:02:16,090 --> 00:02:22,620
+Elas vêm separadas por tipo. Escolha DigitalAlarmSource, a fonte de alarme digital.
+
+20
+00:02:23,570 --> 00:02:29,578
+Numa classe do E3, a caixa Mostrar decide o que a descrição do objeto traz.
+
+21
+00:02:29,828 --> 00:02:37,060
+A desmarcada por padrão, como o Delay, continua sendo lida pelo caminho. Só sai da descrição.
+
+22
+00:02:37,310 --> 00:02:44,557
+E as que o próprio E3 Bridge usa, como a fonte e o limite do alarme, ficam sempre marcadas.
+
+23
+00:02:45,507 --> 00:02:51,220
+Para que ninguém leia uma propriedade, desmarque a caixa dela. Vamos esconder o Shelved.
+
+24
+00:02:52,170 --> 00:02:55,886
+Agora ele está escondido: ninguém lê, nem pelo caminho.
+
+25
+00:02:56,136 --> 00:03:04,370
+E o Comando, numa classe do E3, muda a propriedade só enquanto o domínio roda. Não fica gravado no projeto.
+
+26
+00:03:05,320 --> 00:03:11,384
+Quando terminar, clique em Salvar. O Windows pede a confirmação de administrador.
+
+27
+00:03:12,834 --> 00:03:14,113
+Vamos recapitular.
+
+28
+00:03:14,363 --> 00:03:20,561
+O E3 Bridge lê as classes das bibliotecas do projeto e as do próprio E3.
+
+29
+00:03:20,811 --> 00:03:27,526
+Mostrar decide o que aparece, e as que o E3 Bridge usa ficam sempre marcadas.
+
+30
+00:03:27,776 --> 00:03:34,091
+E Comando deixa escrever a propriedade, onde a regra da pessoa disser Escrever.
+
+31
+00:03:34,341 --> 00:03:40,998
+Na próxima aula, você vai configurar a porta, o HTTPS e o acesso pela rede.

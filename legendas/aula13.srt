@@ -1,0 +1,99 @@
+1
+00:00:00,850 --> 00:00:06,715
+Nesta aula, você vai usar a API REST do E3 Bridge.
+
+2
+00:00:06,965 --> 00:00:13,208
+Vai ver as rotas, como ler e escrever com o curl, e a documentação e os códigos de erro.
+
+3
+00:00:14,658 --> 00:00:24,599
+A API REST fica em barra api, barra v1, com uma rota para cada ferramenta do MCP, e a mesma resposta, em JSON.
+
+4
+00:00:24,849 --> 00:00:37,615
+Há rotas para ler valores, para encontrar objetos, para histórico e alarmes, para consultas, telas e topologia, para acompanhar mudanças, e para escrever e comandar.
+
+5
+00:00:37,865 --> 00:00:41,755
+Os parâmetros vão na URL, ou no corpo de um POST.
+
+6
+00:00:43,205 --> 00:00:46,903
+Uma leitura é um GET simples, com o login no pedido.
+
+7
+00:00:47,153 --> 00:00:51,411
+A resposta traz o valor, a qualidade e o horário.
+
+8
+00:00:52,861 --> 00:01:00,063
+O filtro devolve só o que atende a uma condição. Por exemplo, as bombas com o estado igual a um.
+
+9
+00:01:00,313 --> 00:01:06,094
+Com format igual a table, a resposta vem em tabela, menor e mais fácil de ler.
+
+10
+00:01:07,544 --> 00:01:12,968
+Para escrever, faça um POST na rota write, com o caminho e o valor.
+
+11
+00:01:13,218 --> 00:01:19,315
+A resposta traz o valor antes, o escrito, o lido depois e quem escreveu.
+
+12
+00:01:20,765 --> 00:01:29,462
+A documentação completa abre no navegador, em barra api, barra v1, barra docs, mesmo sem Internet.
+
+13
+00:01:29,712 --> 00:01:34,061
+Ela mostra cada rota com os parâmetros, e o botão para testar.
+
+14
+00:01:35,895 --> 00:01:40,781
+Quando algo falha, o código e o campo error dizem o motivo.
+
+15
+00:01:41,031 --> 00:01:44,810
+Quatrocentos: um parâmetro faltando ou inválido.
+
+16
+00:01:45,060 --> 00:01:49,173
+Quatrocentos e um: sem login, ou login recusado.
+
+17
+00:01:49,423 --> 00:01:54,364
+Quatrocentos e três: IP fora da lista, ou escrita sem a regra.
+
+18
+00:01:54,614 --> 00:01:58,980
+Quatrocentos e nove: o usuário em uso em outro programa.
+
+19
+00:01:59,230 --> 00:02:06,330
+Quatrocentos e vinte e dois: o E3 não conseguiu atender, por exemplo, porque o objeto não existe.
+
+20
+00:02:06,580 --> 00:02:12,898
+E quinhentos e três: o E3 ainda não está pronto, com o tempo para tentar de novo.
+
+21
+00:02:14,348 --> 00:02:15,619
+Vamos recapitular.
+
+22
+00:02:15,869 --> 00:02:20,019
+A REST tem uma rota para cada ferramenta, com o mesmo JSON.
+
+23
+00:02:20,269 --> 00:02:25,108
+O login vai em cada pedido, com o usuário e a senha do E3.
+
+24
+00:02:25,358 --> 00:02:32,029
+E a documentação, com o botão de testar, fica em barra api, barra v1, barra docs.
+
+25
+00:02:32,279 --> 00:02:36,258
+Na próxima aula, você vai conhecer o i3X.

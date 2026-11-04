@@ -1,0 +1,123 @@
+1
+00:00:00,850 --> 00:00:07,512
+Nesta aula, você vai entender como as regras de acesso funcionam, antes de criá-las na janela.
+
+2
+00:00:07,762 --> 00:00:15,034
+Vai ver quem recebe as regras, qual regra vale quando há mais de uma, e o que a pessoa vê e o que não vê.
+
+3
+00:00:16,484 --> 00:00:19,275
+No E3 Bridge, tudo começa bloqueado.
+
+4
+00:00:19,525 --> 00:00:28,705
+Isso vale inclusive para os administradores do E3: o papel de administrador permite entrar na janela, mas não libera os dados.
+
+5
+00:00:30,155 --> 00:00:34,584
+Uma regra diz para quem ela vale, e em que ponto da aplicação.
+
+6
+00:00:34,834 --> 00:00:41,725
+Ela pode valer para Todos, para os administradores do E3, para um grupo, ou para um usuário.
+
+7
+00:00:41,975 --> 00:00:49,818
+Usuários do Windows e grupos do Active Directory cadastrados no E3 também entram, com o login do Windows.
+
+8
+00:00:50,068 --> 00:00:54,327
+E o ponto pode ser uma pasta, um objeto ou uma tela.
+
+9
+00:00:55,277 --> 00:00:59,423
+Em cada ponto, a regra dá um de três acessos.
+
+10
+00:00:59,673 --> 00:01:03,324
+Sem acesso: o item fica bloqueado.
+
+11
+00:01:03,574 --> 00:01:06,452
+Ler: a pessoa vê e lê o valor.
+
+12
+00:01:06,702 --> 00:01:12,991
+E escrever, que inclui ler. Num equipamento, escrever também libera os comandos dele.
+
+13
+00:01:14,441 --> 00:01:20,914
+Uma regra numa pasta vale para tudo o que está dentro dela, inclusive o que for criado depois.
+
+14
+00:01:21,864 --> 00:01:28,023
+Mas vale sempre a regra mais próxima do objeto: a dele, ou a da pasta mais perto.
+
+15
+00:01:28,273 --> 00:01:34,083
+Por isso, uma pasta liberada pode ter um item bloqueado dentro, e o contrário também.
+
+16
+00:01:35,533 --> 00:01:39,946
+E quando duas regras valem para a mesma pessoa, no mesmo ponto?
+
+17
+00:01:40,196 --> 00:01:45,703
+Por exemplo, o grupo Operação libera, e o grupo Visitantes bloqueia.
+
+18
+00:01:45,953 --> 00:01:52,563
+Nesse caso, Bloquear vale. Na dúvida, o E3 Bridge fica sempre do lado seguro.
+
+19
+00:01:54,013 --> 00:02:00,050
+A regra de um grupo vale para todos os membros, inclusive os que entrarem depois.
+
+20
+00:02:00,300 --> 00:02:06,867
+E grupos podem estar dentro de outros grupos: a regra do grupo de cima vale também para os de dentro.
+
+21
+00:02:08,317 --> 00:02:15,297
+Quando uma pasta está bloqueada, mas algo dentro dela foi liberado, a pasta aparece como Só o caminho.
+
+22
+00:02:15,547 --> 00:02:21,318
+A pessoa vê o nome da pasta, para chegar ao que pode ler, mas nada além disso.
+
+23
+00:02:22,768 --> 00:02:25,856
+E o que está bloqueado não aparece de jeito nenhum.
+
+24
+00:02:26,106 --> 00:02:33,438
+Para a pessoa, simplesmente não existe: nas listas, nas buscas, nas leituras e nas telas.
+
+25
+00:02:34,888 --> 00:02:41,900
+Nas telas, há uma regra a mais: a pessoa precisa também da permissão de abrir do próprio E3.
+
+26
+00:02:42,150 --> 00:02:48,186
+E as regras são guardadas por aplicação: cada domínio do E3 tem as suas.
+
+27
+00:02:49,636 --> 00:02:50,892
+Vamos recapitular.
+
+28
+00:02:51,142 --> 00:02:55,194
+Tudo começa bloqueado, até para os administradores.
+
+29
+00:02:55,444 --> 00:02:59,762
+Vale a regra mais próxima, e, no mesmo ponto, Bloquear vale.
+
+30
+00:03:00,012 --> 00:03:02,933
+E o que está bloqueado não existe para a pessoa.
+
+31
+00:03:03,183 --> 00:03:08,418
+Na próxima aula, você vai criar as regras na janela, passo a passo.

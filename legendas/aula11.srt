@@ -1,0 +1,127 @@
+1
+00:00:00,850 --> 00:00:05,333
+Nesta aula, você vai fazer perguntas à aplicação pelo assistente.
+
+2
+00:00:05,583 --> 00:00:12,676
+Vai ver as ferramentas que ele usa, perguntas de exemplo, e como a DocString melhora as respostas.
+
+3
+00:00:14,126 --> 00:00:18,945
+O E3 Bridge oferece dezenove ferramentas ao assistente.
+
+4
+00:00:19,195 --> 00:00:28,662
+Elas servem para conferir o servidor, encontrar e descrever objetos, ler valores, e consultar alarmes e históricos.
+
+5
+00:00:28,912 --> 00:00:37,308
+Também para consultas, telas e topologia, para acompanhar mudanças, e, com a permissão certa, para escrever.
+
+6
+00:00:37,558 --> 00:00:43,257
+Você não escolhe as ferramentas: o assistente decide sozinho, a partir da pergunta.
+
+7
+00:00:44,707 --> 00:00:54,723
+Veja um exemplo real. A pergunta é: algum bairro corre risco de falta de água agora? Olhe os reservatórios e a pressão da rede.
+
+8
+00:00:54,973 --> 00:01:02,143
+O assistente confere o servidor, lista os objetos, lê os valores e descreve um objeto.
+
+9
+00:01:02,393 --> 00:01:08,247
+E responde: sim, o Alto da Serra corre risco, com os números de cada ponto.
+
+10
+00:01:10,897 --> 00:01:14,392
+Outro exemplo: quais bombas estão ligadas agora?
+
+11
+00:01:14,642 --> 00:01:23,721
+O assistente usa filter values: o E3 Bridge filtra os dados no próprio servidor, e devolve só o que interessa.
+
+12
+00:01:23,971 --> 00:01:27,002
+A resposta: quatro bombas ligadas.
+
+13
+00:01:29,452 --> 00:01:34,010
+Estas perguntas mostram o que cada tipo de pedido costuma usar.
+
+14
+00:01:34,260 --> 00:01:37,879
+O valor de agora: procurar o tag, e ler.
+
+15
+00:01:38,129 --> 00:01:40,877
+Os alarmes ativos, e desde quando.
+
+16
+00:01:41,127 --> 00:01:46,209
+Como um nível variou nas últimas horas, com um gráfico, se o cliente desenha.
+
+17
+00:01:46,459 --> 00:01:49,607
+O que aparece numa tela, e o que faz um botão.
+
+18
+00:01:49,857 --> 00:01:53,494
+E o que está ligado a uma válvula, pela topologia.
+
+19
+00:01:54,944 --> 00:01:59,115
+As respostas ficam melhores quando os objetos têm DocString.
+
+20
+00:01:59,365 --> 00:02:04,223
+A primeira linha é o resumo, com a unidade e os limites.
+
+21
+00:02:04,473 --> 00:02:11,700
+Nas linhas seguintes, uma camada por linha, como a origem do dado, e a qualidade e as armadilhas.
+
+22
+00:02:13,150 --> 00:02:15,180
+Algumas dicas para perguntar bem.
+
+23
+00:02:15,430 --> 00:02:22,630
+Pergunte de forma direta: o assistente responde curto, com o valor, a unidade e a hora.
+
+24
+00:02:22,880 --> 00:02:28,068
+Peça detalhes quando quiser, por exemplo, os limites ou de onde vem o dado.
+
+25
+00:02:28,318 --> 00:02:37,086
+E, quando a resposta trouxer um aviso, como um dado que não é cem por cento confiável, ele diz isso numa frase simples.
+
+26
+00:02:38,036 --> 00:02:44,958
+Um cuidado: com um modelo de IA na nuvem, os valores lidos vão para o provedor do modelo.
+
+27
+00:02:45,208 --> 00:02:50,481
+Para manter tudo na planta, use um modelo local, como no LM Studio.
+
+28
+00:02:51,931 --> 00:02:53,209
+Vamos recapitular.
+
+29
+00:02:53,459 --> 00:02:57,744
+O assistente escolhe sozinho entre dezenove ferramentas.
+
+30
+00:02:57,994 --> 00:03:01,559
+Você pergunta em linguagem natural, de forma direta.
+
+31
+00:03:01,809 --> 00:03:05,220
+E a DocString deixa as respostas mais precisas.
+
+32
+00:03:05,470 --> 00:03:09,148
+Na próxima aula, você vai ver a escrita e os comandos.

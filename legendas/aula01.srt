@@ -1,0 +1,135 @@
+1
+00:00:00,850 --> 00:00:05,637
+Olá! Esta é a primeira aula do curso do E3 Bridge.
+
+2
+00:00:05,887 --> 00:00:16,955
+Nesta aula, você vai entender o que o E3 Bridge faz, onde ele roda e quais interfaces oferece, e os princípios de segurança que valem em tudo.
+
+3
+00:00:18,405 --> 00:00:25,629
+Uma aplicação do E3, do Power ou do Water reúne muita informação sobre a planta.
+
+4
+00:00:25,879 --> 00:00:34,306
+São os tags, com os valores do processo, os alarmes, os históricos, as consultas e as telas.
+
+5
+00:00:36,126 --> 00:00:41,973
+O E3 Bridge abre essa informação, de forma controlada, para quem precisa dela.
+
+6
+00:00:42,223 --> 00:00:50,269
+De um lado, assistentes de inteligência artificial, como o Claude, que respondem perguntas em linguagem natural.
+
+7
+00:00:50,519 --> 00:00:59,099
+Do outro, sistemas, como um MES, um ERP ou um painel web, que leem os dados pela rede.
+
+8
+00:01:00,549 --> 00:01:08,605
+Na prática, o E3 Bridge permite encontrar e descrever os objetos da aplicação, com a DocString de cada um.
+
+9
+00:01:08,855 --> 00:01:14,265
+Permite ler valores em tempo real, um de cada vez ou até dois mil juntos.
+
+10
+00:01:14,515 --> 00:01:18,641
+Consultar os alarmes ativos e o histórico de cada tag.
+
+11
+00:01:18,891 --> 00:01:24,414
+Executar as consultas do E3, e descrever o que cada tela mostra.
+
+12
+00:01:24,664 --> 00:01:31,417
+No Water e no Power, ele mostra também a topologia do modelo: o que está ligado a quê.
+
+13
+00:01:31,667 --> 00:01:36,632
+E, com a permissão certa, ele escreve valores e executa comandos.
+
+14
+00:01:38,082 --> 00:01:41,950
+O E3 Bridge é instalado no computador do E3 Server.
+
+15
+00:01:42,200 --> 00:01:49,504
+Ele roda como um serviço do Windows, que inicia com o sistema, sem que ninguém precise entrar no computador.
+
+16
+00:01:49,754 --> 00:02:00,001
+E lê o E3 desse mesmo computador. Por isso, as telas, as DocStrings e a topologia vêm direto dos arquivos do projeto.
+
+17
+00:02:00,951 --> 00:02:09,153
+Para quem está de fora, ele oferece três interfaces, todas na mesma porta, por padrão a 8750.
+
+18
+00:02:09,403 --> 00:02:13,389
+O MCP é o protocolo dos assistentes de IA.
+
+19
+00:02:13,639 --> 00:02:19,710
+A API REST atende qualquer sistema que fale HTTP e JSON.
+
+20
+00:02:19,960 --> 00:02:24,839
+E o i3X segue o padrão aberto da CESMII para dados industriais.
+
+21
+00:02:25,089 --> 00:02:30,044
+As três usam o mesmo login, as mesmas regras e a mesma auditoria.
+
+22
+00:02:31,494 --> 00:02:36,322
+Quatro princípios de segurança valem em tudo o que você vai ver neste curso.
+
+23
+00:02:36,572 --> 00:02:47,544
+Primeiro: todo pedido traz o login do E3 da pessoa. O E3 confere o usuário e a senha, sem usar licença de Viewer.
+
+24
+00:02:47,794 --> 00:02:53,514
+Segundo: tudo começa bloqueado. Cada pessoa só vê o que as regras liberam.
+
+25
+00:02:53,764 --> 00:03:03,013
+Terceiro: ninguém escreve por padrão. A escrita exige a regra Escrever e, no assistente, a confirmação da pessoa.
+
+26
+00:03:03,263 --> 00:03:11,825
+Quarto: por padrão, o acesso é só deste computador. Outros computadores só conectam se você permitir.
+
+27
+00:03:13,275 --> 00:03:18,404
+Ao longo do curso, você vai instalar o E3 Bridge e conhecer a janela dele.
+
+28
+00:03:18,654 --> 00:03:23,302
+Depois, vai liberar o acesso das pessoas e configurar a rede.
+
+29
+00:03:23,552 --> 00:03:31,777
+Por fim, vai conectar um assistente de IA, integrar outros sistemas e acompanhar tudo com segurança.
+
+30
+00:03:33,227 --> 00:03:34,488
+Vamos recapitular.
+
+31
+00:03:34,738 --> 00:03:42,182
+O E3 Bridge leva os dados da aplicação do E3 a assistentes de IA e a outros sistemas.
+
+32
+00:03:42,432 --> 00:03:50,272
+Ele roda no computador do E3 Server, e oferece MCP, REST e i3X na mesma porta.
+
+33
+00:03:50,522 --> 00:03:54,276
+E nada sai sem o login do E3 e as regras de acesso.
+
+34
+00:03:54,526 --> 00:04:00,321
+Na próxima aula, você vai ver o caminho de um pedido, do cliente até o E3.

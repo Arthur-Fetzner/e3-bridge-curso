@@ -1,0 +1,103 @@
+1
+00:00:00,850 --> 00:00:03,216
+Esta é a última aula do curso.
+
+2
+00:00:03,466 --> 00:00:11,480
+Você vai ver a auditoria e os logs, as recomendações de segurança, e como resolver os problemas mais comuns.
+
+3
+00:00:12,930 --> 00:00:19,720
+Cada pedido vira uma linha da auditoria, num arquivo por dia, na pasta eeLogs.
+
+4
+00:00:19,970 --> 00:00:29,261
+A linha diz a hora, a API, o usuário do E3, o cliente, a ferramenta, o alvo e o resultado.
+
+5
+00:00:29,511 --> 00:00:36,905
+Nas escritas, também o valor antes, o escrito e o depois. Senhas nunca são gravadas.
+
+6
+00:00:38,355 --> 00:00:49,225
+A auditoria guarda até noventa dias e dois gigabytes. Se o disco ficar com menos de um gigabyte livre, ela pausa e volta sozinha depois.
+
+7
+00:00:49,475 --> 00:01:00,930
+O serviço também registra no Visualizador de Eventos: quando inicia, quando para, quando a porta não abre, e quando o E3 não responde.
+
+8
+00:01:01,180 --> 00:01:07,113
+Se o E3 não responder a um pedido por quinze minutos, o serviço reinicia sozinho.
+
+9
+00:01:08,063 --> 00:01:10,453
+Algumas recomendações de segurança.
+
+10
+00:01:10,703 --> 00:01:21,853
+Mantenha os clientes fora da rede de controle, como pede a IEC 62443. Se preciso, use uma DMZ.
+
+11
+00:01:22,103 --> 00:01:28,467
+Com acesso pela rede, use HTTPS, a lista de IPs e o firewall.
+
+12
+00:01:28,717 --> 00:01:33,622
+Mantenha o assistente pedindo confirmação antes de cada ferramenta.
+
+13
+00:01:33,872 --> 00:01:46,237
+Nomes, DocStrings e valores podem trazer texto que tenta enganar o assistente. O E3 Bridge orienta o assistente a tratar tudo isso só como dado.
+
+14
+00:01:46,487 --> 00:01:51,784
+E não guarde senhas em scripts: o assistente vê os scripts das telas.
+
+15
+00:01:53,234 --> 00:01:55,820
+Por fim, os problemas mais comuns.
+
+16
+00:01:56,070 --> 00:02:02,525
+Estado Parado: clique em Iniciar. Se não iniciar, veja o log.
+
+17
+00:02:02,775 --> 00:02:10,823
+Aguardando o E3: o domínio não está rodando. O E3 Bridge conecta sozinho quando ele iniciar.
+
+18
+00:02:11,073 --> 00:02:17,754
+Um objeto ou uma tela parece não existir: confira se as regras liberam isso para a pessoa.
+
+19
+00:02:18,004 --> 00:02:24,717
+Outro computador não conecta: ligue Permitir outros computadores, e libere o IP dele.
+
+20
+00:02:24,967 --> 00:02:32,301
+E o cliente recusa o certificado: faça o cliente confiar nele, ou cole a impressão digital na extensão.
+
+21
+00:02:33,751 --> 00:02:35,816
+Vamos recapitular o curso inteiro.
+
+22
+00:02:36,066 --> 00:02:46,828
+O E3 Bridge leva os dados do E3 a assistentes de IA e a outros sistemas, pelo MCP, pela REST e pelo i3X.
+
+23
+00:02:47,078 --> 00:02:52,256
+Ele só libera o que as regras deixam, com o login do E3 de cada pessoa.
+
+24
+00:02:52,506 --> 00:02:58,453
+A escrita exige a regra Escrever, e, no assistente, a confirmação da pessoa.
+
+25
+00:02:58,703 --> 00:03:01,336
+E tudo fica registrado na auditoria.
+
+26
+00:03:01,586 --> 00:03:04,459
+Obrigado por acompanhar o curso do E3 Bridge.

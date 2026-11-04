@@ -1,0 +1,107 @@
+1
+00:00:00,850 --> 00:00:05,292
+Nesta aula, você vai ajustar as configurações do E3 Bridge.
+
+2
+00:00:05,542 --> 00:00:13,544
+Vai ver a porta e o HTTPS, o certificado, e como liberar outros computadores, com o firewall.
+
+3
+00:00:14,994 --> 00:00:21,078
+Na aba Configurações, ficam dois cartões: E3 Bridge, e Quem conecta.
+
+4
+00:00:21,328 --> 00:00:26,940
+Nenhum campo é obrigatório: o E3 Bridge já vem pronto para este computador.
+
+5
+00:00:27,890 --> 00:00:38,372
+A porta padrão é a 8750, e você pode trocá-la: o MCP, a REST e o i3X respondem todos nela.
+
+6
+00:00:38,622 --> 00:00:43,113
+Para cifrar as conexões, ligue Usar HTTPS.
+
+7
+00:00:44,663 --> 00:00:52,381
+Com HTTPS, todas as conexões ficam cifradas, inclusive as deste computador.
+
+8
+00:00:52,631 --> 00:01:04,417
+Ao salvar pela primeira vez com HTTPS, o E3 Bridge cria um certificado para este computador, com o nome e os IPs dele, válido por cinco anos.
+
+9
+00:01:04,667 --> 00:01:12,728
+Você também pode usar um certificado do Windows, como o da CA da empresa, ou importar um arquivo pfx.
+
+10
+00:01:12,978 --> 00:01:17,852
+E Novo certificado troca o certificado deste computador, ao salvar.
+
+11
+00:01:18,802 --> 00:01:26,580
+Com HTTPS, a Visão geral mostra a impressão digital do certificado, para os clientes conferirem.
+
+12
+00:01:26,830 --> 00:01:30,789
+O endereço também passa a começar com https.
+
+13
+00:01:31,739 --> 00:01:36,176
+Por padrão, só este computador acessa o E3 Bridge.
+
+14
+00:01:36,426 --> 00:01:40,716
+Para liberar outros, ligue Permitir outros computadores.
+
+15
+00:01:42,266 --> 00:01:53,529
+Em IPs permitidos, adicione cada computador: um IP, o nome de um computador, ou uma faixa, de um IP até outro.
+
+16
+00:01:53,779 --> 00:01:58,018
+Por exemplo, digite o IP, e clique em Adicionar.
+
+17
+00:01:58,868 --> 00:02:01,799
+Para uma faixa, preencha também o campo até.
+
+18
+00:02:04,115 --> 00:02:11,366
+Com a lista vazia, qualquer computador pode conectar, sempre com o login do E3.
+
+19
+00:02:11,616 --> 00:02:18,332
+Deixe o Firewall do Windows ligado: ao salvar, a porta é liberada só para os IPs da lista.
+
+20
+00:02:18,982 --> 00:02:27,037
+Por fim, clique em Salvar. O Windows pede a confirmação, e o serviço recarrega em um ou dois segundos.
+
+21
+00:02:28,487 --> 00:02:35,281
+Um cuidado: sem HTTPS, o login e os dados passam legíveis pela rede.
+
+22
+00:02:35,531 --> 00:02:43,167
+Por isso, sem HTTPS, use a rede só internamente, com a lista de IPs e o firewall.
+
+23
+00:02:44,617 --> 00:02:45,885
+Vamos recapitular.
+
+24
+00:02:46,135 --> 00:02:53,236
+A porta padrão é a 8750, e o HTTPS cifra todas as conexões.
+
+25
+00:02:53,486 --> 00:02:59,386
+O certificado é criado pelo E3 Bridge, ou vem do Windows ou de um pfx.
+
+26
+00:02:59,636 --> 00:03:04,625
+E outros computadores entram só pela lista de IPs, com o firewall.
+
+27
+00:03:04,875 --> 00:03:09,130
+Na próxima aula, você vai conectar um assistente de IA.

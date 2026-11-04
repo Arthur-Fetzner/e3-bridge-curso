@@ -1,0 +1,87 @@
+1
+00:00:00,850 --> 00:00:08,668
+Nesta aula, você vai conhecer o i3X, o padrão aberto da CESMII para dados industriais.
+
+2
+00:00:08,918 --> 00:00:14,727
+Vai ver os objetos e os tipos, os valores e o histórico, e as assinaturas.
+
+3
+00:00:16,177 --> 00:00:21,278
+O E3 Bridge expõe a aplicação inteira como objetos do i3X.
+
+4
+00:00:21,528 --> 00:00:28,615
+Cada objeto do E3 vira um elemento, e o caminho no E3 é o identificador dele.
+
+5
+00:00:28,865 --> 00:00:33,993
+A classe do E3 vira o tipo, e cada elemento sabe o pai e os filhos.
+
+6
+00:00:34,243 --> 00:00:40,139
+E o E3 Bridge passa na suíte oficial de conformidade, como um ponto zero Compatible.
+
+7
+00:00:41,589 --> 00:00:47,047
+Para ler valores, use objects barra value, com a lista dos elementos.
+
+8
+00:00:47,297 --> 00:00:52,393
+Cada valor vem com a qualidade em texto, e o horário em UTC.
+
+9
+00:00:53,843 --> 00:01:00,198
+A qualidade do E3 vira Good, Uncertain ou Bad, e o valor ruim vem nulo.
+
+10
+00:01:00,448 --> 00:01:05,538
+O histórico traz os pontos gravados, de até cem objetos por pedido.
+
+11
+00:01:05,788 --> 00:01:10,620
+E escrever o valor atual também é possível, com a regra Escrever.
+
+12
+00:01:12,070 --> 00:01:15,794
+Para acompanhar mudanças, crie uma assinatura.
+
+13
+00:01:16,044 --> 00:01:18,917
+Depois, registre os elementos nela.
+
+14
+00:01:19,167 --> 00:01:23,246
+E chame sync: vêm as mudanças desde o último sync.
+
+15
+00:01:23,496 --> 00:01:26,440
+Não há stream: é o cliente quem pergunta.
+
+16
+00:01:27,890 --> 00:01:36,362
+Comandos, alarmes, consultas, telas e topologia não fazem parte do i3X um ponto zero.
+
+17
+00:01:36,612 --> 00:01:41,810
+Por isso, eles ficam na REST e no MCP, com o mesmo login.
+
+18
+00:01:43,260 --> 00:01:44,496
+Vamos recapitular.
+
+19
+00:01:44,746 --> 00:01:51,631
+No i3X, cada objeto do E3 é um elemento, com o caminho como identificador.
+
+20
+00:01:51,881 --> 00:01:55,979
+Os valores vêm com a qualidade e o horário em UTC.
+
+21
+00:01:56,229 --> 00:01:59,375
+E as assinaturas trazem as mudanças a cada sync.
+
+22
+00:01:59,625 --> 00:02:06,867
+Na próxima aula, a última, você vai ver a auditoria, a segurança e os problemas mais comuns.

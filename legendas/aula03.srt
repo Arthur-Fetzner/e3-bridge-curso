@@ -1,0 +1,115 @@
+1
+00:00:00,850 --> 00:00:04,634
+Nesta aula, você vai instalar o E3 Bridge.
+
+2
+00:00:04,884 --> 00:00:12,917
+Vai ver os requisitos, a instalação passo a passo, e onde ficam o programa, a configuração e os logs.
+
+3
+00:00:14,367 --> 00:00:17,410
+Antes de começar, confira os requisitos.
+
+4
+00:00:17,660 --> 00:00:29,035
+O E3 Bridge roda no Windows 10, no Windows 11 ou no Windows Server 2016 e posteriores, sempre em 64 bits.
+
+5
+00:00:29,285 --> 00:00:34,950
+Ele deve ser instalado no computador do E3 Server, o mesmo que roda o domínio.
+
+6
+00:00:35,200 --> 00:00:41,849
+E não precisa de mais nada: o instalador traz tudo, inclusive o E3 Data Access.
+
+7
+00:00:42,799 --> 00:00:53,087
+O pacote do E3 Bridge traz o instalador, os guias em PDF, em quatro idiomas, e a extensão do Claude Desktop.
+
+8
+00:00:54,537 --> 00:01:01,041
+Execute o E3BridgeSetup e confirme o pedido de administrador do Windows.
+
+9
+00:01:01,291 --> 00:01:08,186
+A primeira tela pergunta o idioma: português, espanhol, inglês ou chinês tradicional.
+
+10
+00:01:08,436 --> 00:01:16,522
+O idioma escolhido vale para tudo: a janela, as mensagens e o guia instalado. Clique em OK.
+
+11
+00:01:17,941 --> 00:01:21,541
+Na tela de boas-vindas, clique em Instalar.
+
+12
+00:01:22,391 --> 00:01:30,151
+Ao terminar, o serviço já está em execução, e o ícone do E3 Bridge aparece na área de notificação.
+
+13
+00:01:30,401 --> 00:01:34,845
+Na última tela, você pode abrir o E3 Bridge e o guia.
+
+14
+00:01:36,295 --> 00:01:42,491
+O E3 Bridge roda como um serviço do Windows, chamado Elipse E3 Bridge.
+
+15
+00:01:42,741 --> 00:01:46,846
+Ele inicia com o Windows, mesmo sem ninguém entrar no computador.
+
+16
+00:01:47,096 --> 00:01:52,989
+E, se parar por algum erro, o Windows inicia o serviço de novo, sozinho.
+
+17
+00:01:54,439 --> 00:01:58,724
+Para conferir, abra o PowerShell e chame o endereço health.
+
+18
+00:01:58,974 --> 00:02:05,331
+Com o domínio do E3 em execução, a resposta é ok. Esse endereço não pede login.
+
+19
+00:02:06,781 --> 00:02:12,881
+O programa fica em Arquivos de Programas, na pasta Elipse Software, E3 Bridge.
+
+20
+00:02:13,131 --> 00:02:17,822
+A configuração fica em ProgramData, e só administradores podem ler.
+
+21
+00:02:18,072 --> 00:02:24,104
+E os logs e a auditoria ficam na pasta eeLogs, em E3 Bridge.
+
+22
+00:02:25,554 --> 00:02:34,118
+Para atualizar, execute o instalador da versão nova por cima da instalada. A configuração e as regras são mantidas.
+
+23
+00:02:34,368 --> 00:02:38,554
+Para instalar sem perguntas, use a opção barra S.
+
+24
+00:02:38,804 --> 00:02:45,969
+E, ao desinstalar, a configuração e os logs ficam, para o caso de você instalar de novo.
+
+25
+00:02:47,419 --> 00:02:48,716
+Vamos recapitular.
+
+26
+00:02:48,966 --> 00:02:55,082
+O E3 Bridge é instalado no computador do E3 Server, com um só instalador.
+
+27
+00:02:55,332 --> 00:02:59,130
+Ele roda como um serviço do Windows, que inicia sozinho.
+
+28
+00:02:59,380 --> 00:03:02,759
+E o endereço health confirma que ele está em execução.
+
+29
+00:03:03,009 --> 00:03:06,940
+Na próxima aula, você vai fazer o primeiro acesso à janela.

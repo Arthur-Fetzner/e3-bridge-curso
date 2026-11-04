@@ -1,0 +1,139 @@
+1
+00:00:00,850 --> 00:00:06,324
+Nesta aula, você vai conhecer a Visão geral, a primeira página da janela.
+
+2
+00:00:06,574 --> 00:00:15,247
+Vai ver o estado do serviço, a configuração e os endereços, e as pessoas conectadas e os últimos pedidos.
+
+3
+00:00:16,697 --> 00:00:19,564
+No alto da janela fica o estado do serviço.
+
+4
+00:00:19,814 --> 00:00:27,844
+Aqui, ele está Em execução: o MCP, a REST e o i3X estão respondendo.
+
+5
+00:00:29,294 --> 00:00:31,885
+Os principais estados são quatro.
+
+6
+00:00:32,135 --> 00:00:35,355
+Em execução, quando tudo está atendendo.
+
+7
+00:00:35,605 --> 00:00:44,730
+Aguardando o E3, quando o domínio não está rodando. O E3 Bridge conecta sozinho quando o domínio inicia.
+
+8
+00:00:44,980 --> 00:00:50,531
+Problema, com uma frase curta do que fazer, por exemplo quando a porta já está em uso.
+
+9
+00:00:50,781 --> 00:00:57,640
+E Parado, quando o serviço foi parado. Nesse caso, nenhuma das três interfaces responde.
+
+10
+00:00:59,090 --> 00:01:06,205
+Veja como fica a janela com o domínio parado: o estado mostra Aguardando o E3.
+
+11
+00:01:06,455 --> 00:01:11,041
+E, em Servidor E3, aparece Domínio parado.
+
+12
+00:01:11,991 --> 00:01:19,300
+À esquerda, o cartão Configurações resume como o E3 Bridge está configurado.
+
+13
+00:01:19,550 --> 00:01:24,619
+Servidor E3 mostra se o E3 deste computador está conectado.
+
+14
+00:01:24,869 --> 00:01:28,370
+E3 Bridge mostra o protocolo e a porta.
+
+15
+00:01:28,620 --> 00:01:31,962
+Outros computadores diz se a rede está liberada.
+
+16
+00:01:32,212 --> 00:01:39,995
+E Regras de acesso diz quantas regras há. Um clique numa dessas três últimas linhas abre a página dela.
+
+17
+00:01:40,945 --> 00:01:48,031
+Embaixo, os Endereços do MCP, da REST e do i3X, cada um com o botão de copiar.
+
+18
+00:01:48,281 --> 00:01:55,455
+Com HTTPS, aparece também a impressão digital do certificado, para os clientes conferirem.
+
+19
+00:01:56,405 --> 00:02:06,640
+Mais abaixo, Pessoas conectadas mostra quem usou o E3 Bridge nos últimos dez minutos, por qual via, e a hora do último pedido.
+
+20
+00:02:07,590 --> 00:02:10,506
+À direita, ficam os últimos pedidos.
+
+21
+00:02:10,756 --> 00:02:19,210
+Cada linha mostra a hora, a pessoa, a via, o pedido, o alvo, o resultado e o tempo.
+
+22
+00:02:20,160 --> 00:02:22,760
+O filtro no alto separa os pedidos.
+
+23
+00:02:23,310 --> 00:02:25,920
+Em Erros, ficam só as falhas.
+
+24
+00:02:26,470 --> 00:02:32,083
+Em Recusados, os pedidos que o E3 Bridge recusou, como um login errado.
+
+25
+00:02:32,633 --> 00:02:36,897
+E em Escritas, tudo o que foi escrito ou comandado.
+
+26
+00:02:37,847 --> 00:02:40,055
+Para parar o serviço, clique em Parar.
+
+27
+00:02:43,456 --> 00:02:48,571
+A janela pergunta antes, e o Windows pede a confirmação de administrador.
+
+28
+00:02:50,321 --> 00:02:56,127
+Com o serviço parado, o estado mostra Parado, e o botão vira Iniciar.
+
+29
+00:02:56,377 --> 00:03:01,486
+Nesse estado, o MCP, a REST e o i3X não respondem.
+
+30
+00:03:02,436 --> 00:03:06,777
+E o botão Logs abre a pasta com o log do serviço e a auditoria.
+
+31
+00:03:08,227 --> 00:03:09,483
+Vamos recapitular.
+
+32
+00:03:09,733 --> 00:03:17,130
+No alto, o estado: Em execução, Aguardando o E3, Problema ou Parado.
+
+33
+00:03:17,380 --> 00:03:22,214
+À esquerda, a configuração, os endereços e as pessoas conectadas.
+
+34
+00:03:22,464 --> 00:03:26,264
+À direita, os últimos pedidos, com o filtro.
+
+35
+00:03:26,514 --> 00:03:31,309
+Na próxima aula, você vai entender como as regras de acesso funcionam.

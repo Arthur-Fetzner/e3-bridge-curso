@@ -1,0 +1,123 @@
+1
+00:00:00,850 --> 00:00:08,379
+Nesta aula, você vai ver como o assistente escreve valores e executa comandos, com segurança.
+
+2
+00:00:08,629 --> 00:00:16,315
+Vai ver a regra Escrever, a confirmação da pessoa, e os comandos do Power, do Water e da PlantModel.
+
+3
+00:00:17,765 --> 00:00:19,748
+Ninguém escreve por padrão.
+
+4
+00:00:19,998 --> 00:00:28,269
+Para escrever, a pessoa precisa da regra Escrever no tag, ou no equipamento, em Pessoas e permissões.
+
+5
+00:00:29,719 --> 00:00:38,527
+Ao pedir uma alteração, por exemplo, mude o setpoint mínimo de OD para quatro e meio, o assistente prepara a escrita.
+
+6
+00:00:38,777 --> 00:00:45,125
+Antes de escrever, o E3 Bridge pergunta à pessoa, mostrando o valor de agora.
+
+7
+00:00:45,375 --> 00:00:49,763
+Só com o Sim ele escreve, e lê o valor de novo para confirmar.
+
+8
+00:00:52,613 --> 00:00:58,930
+A resposta traz o valor de antes, o escrito, o lido depois, e quem escreveu.
+
+9
+00:00:59,180 --> 00:01:01,364
+E tudo vai para a auditoria.
+
+10
+00:01:02,314 --> 00:01:05,902
+Quem mostra a pergunta é o cliente MCP.
+
+11
+00:01:06,152 --> 00:01:09,331
+O Claude Code mostra, e escreve com o Sim.
+
+12
+00:01:09,581 --> 00:01:17,839
+O Claude Desktop não mostra. Para escrever por ele, ligue Allow writing nas configurações da extensão.
+
+13
+00:01:18,089 --> 00:01:27,977
+Com ela ligada, o E3 Bridge escreve sem a pergunta, só onde a regra Escrever deixa, e o assistente confirma com você no chat.
+
+14
+00:01:28,227 --> 00:01:31,861
+E um cliente que não sabe perguntar recebe a recusa.
+
+15
+00:01:32,811 --> 00:01:42,571
+Além de valores, o E3 Bridge executa comandos do modelo do Power e do Water: Operate, Select, Cancel e Abort.
+
+16
+00:01:42,821 --> 00:01:46,022
+Por exemplo, abrir ou fechar um disjuntor.
+
+17
+00:01:46,272 --> 00:01:52,181
+No Water, um setpoint, como a posição de uma válvula, leva o valor junto.
+
+18
+00:01:52,431 --> 00:02:00,202
+E ele também roda os comandos da biblioteca PlantModel, respeitando os grupos autorizados e o intertravamento dela.
+
+19
+00:02:01,652 --> 00:02:06,817
+Veja: abra o disjuntor 5205 da subestação 1.
+
+20
+00:02:07,067 --> 00:02:11,507
+O assistente acha o comando do disjuntor, e pede a confirmação.
+
+21
+00:02:11,757 --> 00:02:14,969
+Com o Sim, o comando é executado.
+
+22
+00:02:17,819 --> 00:02:23,747
+Pela REST e pelo i3X, quem chama é outro sistema, sem ninguém para confirmar.
+
+23
+00:02:23,997 --> 00:02:31,883
+Por isso, vale só a regra Escrever do usuário do sistema: dê essa regra só onde ele precisa.
+
+24
+00:02:32,833 --> 00:02:36,058
+E algumas coisas o E3 Bridge nunca faz.
+
+25
+00:02:36,308 --> 00:02:40,162
+Ele não reconhece alarmes, e não grava no AlarmServer.
+
+26
+00:02:40,412 --> 00:02:45,677
+E só executa uma consulta do E3 se o SQL for um único SELECT.
+
+27
+00:02:47,127 --> 00:02:48,352
+Vamos recapitular.
+
+28
+00:02:48,602 --> 00:02:53,379
+Escrever exige a regra Escrever, que ninguém tem por padrão.
+
+29
+00:02:53,629 --> 00:02:57,984
+No assistente, a pessoa confirma cada escrita e cada comando.
+
+30
+00:02:58,234 --> 00:03:03,917
+E tudo fica registrado: antes, escrito, depois e quem.
+
+31
+00:03:04,167 --> 00:03:08,147
+Na próxima aula, você vai usar a API REST.

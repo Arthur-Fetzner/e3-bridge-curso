@@ -1,0 +1,83 @@
+1
+00:00:00,850 --> 00:00:06,839
+Nesta aula, você vai conectar um assistente de IA ao E3 Bridge.
+
+2
+00:00:07,089 --> 00:00:15,492
+Vai ver como o login vai no cliente, como conectar o Claude Code e o Claude Desktop, e a regra de um programa por pessoa.
+
+3
+00:00:16,942 --> 00:00:22,958
+O MCP é o jeito como os assistentes de IA usam ferramentas externas.
+
+4
+00:00:23,208 --> 00:00:30,585
+O assistente decide quais ferramentas chamar, e o E3 Bridge responde com os dados do E3.
+
+5
+00:00:32,035 --> 00:00:38,031
+O endereço do MCP fica em Endereços, na Visão geral, com o botão de copiar.
+
+6
+00:00:39,481 --> 00:00:49,240
+Todo cliente manda o login do E3 da pessoa, no formato usuário, dois pontos, senha, em Base64.
+
+7
+00:00:49,490 --> 00:00:52,591
+No PowerShell, este comando gera o valor.
+
+8
+00:00:56,430 --> 00:01:02,942
+No Claude Code, basta um comando, com o endereço do MCP e o cabeçalho com o login.
+
+9
+00:01:04,392 --> 00:01:12,155
+No Claude Desktop, use a extensão que vem no pacote, o arquivo E3Bridge ponto mcpb.
+
+10
+00:01:12,405 --> 00:01:18,114
+Em Configurações, Extensões, arraste o arquivo, e confirme a instalação.
+
+11
+00:01:18,364 --> 00:01:25,294
+Informe o seu usuário e a senha do E3. Deixe o endereço vazio para usar este computador.
+
+12
+00:01:25,544 --> 00:01:32,601
+Com HTTPS e o certificado do E3 Bridge, cole também a impressão digital.
+
+13
+00:01:32,851 --> 00:01:40,799
+E, para o assistente poder escrever pelo Claude Desktop, ligue Allow writing. A aula doze explica.
+
+14
+00:01:42,249 --> 00:01:56,140
+Outros clientes MCP também funcionam: o Qwen Code, com um comando parecido, o LM Studio, com um modelo local, ou qualquer cliente que fale MCP por HTTP.
+
+15
+00:01:57,590 --> 00:02:02,778
+Lembre-se: cada login do E3 é usado por um programa por vez.
+
+16
+00:02:03,028 --> 00:02:15,169
+Se o Claude Code e o Claude Desktop usarem o mesmo usuário ao mesmo tempo, o segundo recebe quatrocentos e nove, até dois minutos depois do último pedido do primeiro.
+
+17
+00:02:16,619 --> 00:02:17,806
+Vamos recapitular.
+
+18
+00:02:18,056 --> 00:02:20,927
+O endereço fica em Endereços, na Visão geral.
+
+19
+00:02:21,177 --> 00:02:26,083
+O login vai em Base64, no cabeçalho Authorization.
+
+20
+00:02:26,333 --> 00:02:31,793
+O Claude Code conecta com um comando, e o Claude Desktop com a extensão.
+
+21
+00:02:32,043 --> 00:02:35,821
+Na próxima aula, você vai fazer perguntas à aplicação.
