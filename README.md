@@ -9,9 +9,6 @@ ao i3X, com o login E3 de cada pessoa e as regras de acesso de cada uma.
 
 **Online:** https://arthur-fetzner.github.io/e3-bridge-curso/ (no computador e no celular)
 
-**Apresentação do E3 Bridge** (o vídeo de 3 min 34 s): https://arthur-fetzner.github.io/e3-bridge-curso/#apresentacao, a aba
-Apresentação do site, ou o arquivo `apresentacao/E3_Bridge_Apresentacao.mp4`.
-
 Sem Internet: baixe ou clone o repositório e abra o `index.html` no navegador.
 
 - Velocidade de 0,75x a 2x, legendas (CC), tela cheia e voltar 10 s
@@ -28,7 +25,6 @@ Sem Internet: baixe ou clone o repositório e abra o `index.html` no navegador.
 | `index.html` | A página do curso |
 | `aulas/` | O vídeo de cada aula (MP4, 1920 x 1080) e a legenda dele ao lado, com o mesmo nome (SRT): os players abrem a legenda sozinhos |
 | `capas/` | A capa de cada aula, usada pela página |
-| `apresentacao/` | O vídeo de apresentação do E3 Bridge (a aba Apresentação), com a legenda e a capa |
 
 ## Aulas
 
@@ -53,5 +49,5 @@ Sem Internet: baixe ou clone o repositório e abra o `index.html` no navegador.
 ## Como o curso foi feito
 
 As telas são capturas da janela do E3 Bridge 1.0.0 com dados de exemplo, uma por passo. A narração é uma voz sintética
-(ElevenLabs, voz Victor Power; na apresentação, a voz Diego), e a transcrição e as legendas seguem a fala. O gerador do curso (o roteiro, as cenas, a voz e a
+(ElevenLabs, voz Victor Power), e a transcrição e as legendas seguem a fala. O gerador do curso (o roteiro, as cenas, a voz e a
 página) fica no projeto do E3 Bridge, em `Help\Video\Fonte`.
